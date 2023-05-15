@@ -25,10 +25,66 @@ body{
 
 }
 
+.container h1{
+    font-size: 26px;
+}
+
 .container .list{
-    border: solid 1px red;
+    
     height: 300px;
-    margin: auto;
+    width: 300px;
+    background-color: rgba(236, 236, 228, 0.555);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
 
     overflow-y: scroll;
+
+}
+
+.container .list ul{
+    list-style: none;
+    
+}
+
+.container .list ul li{
+
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+    cursor: pointer;
+
+    /* border: solid 1px gainsboro; */
+}
+
+.container .list ul li:hover{
+    background-color: rgba(228, 228, 221, 0.925);
+}
+
+.contatos .img-perfil img{
+    border-radius: 50%;
+    height: 50px;
+}
+
+.descricao h2{
+    font-size: .8em;
+    font-weight: 800;
+
+    width: fit-content;
+}
+
+.descricao p{
+    color: darkcyan;
+    font-size: .8em;
+}
+
+.icones {
+    display: none;
+} 
+
+.icones:hover{
+    display: inline-block;
 }
