@@ -74,6 +74,7 @@ body{
     background-color: rgba(228, 228, 221, 0.925);
 }
 
+
 .contatos .img-perfil img{
     border-radius: 50%;
     width: 60px;
@@ -84,6 +85,8 @@ body{
 .descricao{
     flex-grow: 1;
     padding: 0 5px;
+
+    
 }
 
 .descricao h2{
@@ -100,5 +103,12 @@ body{
 
 .icones {
     display: flex;
+    gap: 16px;
+
+    opacity: 0;
+
 } 
 
+.container .list ul li:hover .icones{
+    opacity: .3;
+} 
