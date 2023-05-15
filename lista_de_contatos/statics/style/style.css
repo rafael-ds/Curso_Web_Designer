@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #385555;
 }
 
 body{
-    margin: auto;
     height: 100vh;
 
     display: flex;
@@ -23,27 +23,32 @@ body{
     align-items: center;
     padding: 20px;
 
+    width: 50%;
+
 }
 
 .container h1{
     font-size: 26px;
+    margin-bottom: 20px;
 }
 
 .container .list{
     
-    height: 300px;
-    width: 300px;
-    background-color: rgba(236, 236, 228, 0.555);
-    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 400px;
     margin-top: 20px;
-    border-radius: 10px;
 
-    overflow-y: scroll;
+    background-color: rgba(236, 236, 228, 0.555);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+
+    overflow-y: auto;
 
 }
 
 .container .list ul{
     list-style: none;
+
     
 }
 
@@ -57,8 +62,13 @@ body{
 
     cursor: pointer;
 
-    /* border: solid 1px gainsboro; */
 }
+
+.contatos{
+    border-bottom: solid 1px #bdbdbda2;
+}
+
+/* OBS: Para realizar o efeito é necessario a li esta dendo da tag <a> */
 
 .container .list ul li:hover{
     background-color: rgba(228, 228, 221, 0.925);
@@ -66,25 +76,29 @@ body{
 
 .contatos .img-perfil img{
     border-radius: 50%;
-    height: 50px;
+    width: 60px;
+
+    padding: 10px;
+}
+
+.descricao{
+    flex-grow: 1;
+    padding: 0 5px;
 }
 
 .descricao h2{
-    font-size: .8em;
-    font-weight: 800;
+    font-size: 1.2em;
+    font-weight: 600;
 
     width: fit-content;
 }
 
 .descricao p{
-    color: darkcyan;
+    color: #aaa;
     font-size: .8em;
 }
 
 .icones {
-    display: none;
+    display: flex;
 } 
 
-.icones:hover{
-    display: inline-block;
-}
