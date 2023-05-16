@@ -23,4 +23,9 @@ Neste projeto, o objetivo foi criar uma lista de contatos com HTML e CSS. Usando
 
 ## 💻 Layout
 <br>
+
+* Modelo 1
 <img src='../img/layout_lista_contatos.png' width='800'>
+
+* Modelo 2
+<img src='../img/lista_contato-2.jpg' width='800'>

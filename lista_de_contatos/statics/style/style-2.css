@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #385555;
+}
+
+body{
+    height: 100vh;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 211, 211);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+.container h1{
+    margin-bottom: 16px;
+
+}
+
+.list ul{
+    width: 95%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.list ul li{
+    text-align: center;
+    flex-basis: 230px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 0 #212b2b63;
+
+    background-image: url(../img/thumb02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+}
+
+.list ul li:hover{
+    background-color: rgba(228, 228, 221, 0.925);
+}
+
+.contatos .img-perfil img{
+    border-radius: 50%;
+    width: 100px;
+
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.descricao h2{
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.descricao p{
+    color: #aaa;
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+
+    opacity: .5;
+    padding: 10px;
+
+    width: auto;
+    background-color: #aaa;
+
+}
+
