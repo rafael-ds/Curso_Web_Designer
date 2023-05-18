@@ -26,3 +26,5 @@ Este repositório contém os projetos frontend desenvolvidos com HTML, CSS e Jav
 
 ##  ⚙ Projetos
 * [Lista de contatos](https://github.com/rafael-ds/Curso_Web_Designer/tree/main/lista_de_contatos)
+
+* [Página de escolha de planos](https://github.com/rafael-ds/Curso_Web_Designer/tree/main/projeto_escolha_seu_plano)
