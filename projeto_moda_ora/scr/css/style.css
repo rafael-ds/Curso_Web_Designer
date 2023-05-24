@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Viaoda+Libre&display=swap');
+
+}
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    
+    height: 100vh;
+
+}
+
+body{
+
+    background-color: aquamarine;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Header */
+.main-header{
+    height: 100vh;
+
+    background-image: url(../img/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 160px 20px 160px;
+    background-color: #162028;
+
+    box-shadow: 2px 1px 18px #2b363f;
+}
+
+.header-logo a{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Viaoda Libre';
+    font-size: 5em;
+
+}
+
+.header-list{
+    display: flex;
+    font-size: 2.5em;
+
+    list-style: none;
+}
+
+.header-list li{
+    margin-left: 5em;
+}
+
+.header-list li a{
+    color: #425564;
+
+    text-transform: uppercase;
+}
+
+.header-list li:hover a{
+    color: white;
+}
