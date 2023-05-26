@@ -4,19 +4,18 @@
     
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Viaoda+Libre&display=swap');
 
+    color: #555;
 }
 
 html, body{
     font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
     
     height: 100vh;
-
+    
 }
 
 body{
-
-    background-color: aquamarine;
+    font-size: 62.5%;   
 
 }
 
@@ -51,13 +50,13 @@ a{
     color: white;
     text-transform: capitalize;
     font-family: 'Viaoda Libre';
-    font-size: 5em;
+    font-size: 3em;
 
 }
 
 .header-list{
     display: flex;
-    font-size: 2.5em;
+    font-size: 1.6em;
 
     list-style: none;
 }
@@ -74,4 +73,78 @@ a{
 
 .header-list li:hover a{
     color: white;
+}
+
+/* Main */
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-one{
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-one-itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: auto;
+    width: 75%;
+
+    /* background-color: blue; */
+}
+
+.container-one-itens h1{
+    font-family: 'Viaoda Libre';
+    font-size: 3.6em;
+    font-weight: lighter;
+
+    padding: .7em;
+}
+
+.one-itens-parag{
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 2em;
+    font-weight: normal;
+    
+    padding: .7em;
+
+}
+.models{
+    display: flex;
+    justify-content:center;
+    
+    width: 100%;
+    gap: 2em;
+
+    padding: 1.5em;
+    margin-top: 10px;
+}
+
+.models-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+}
+
+.models-item p{
+    margin: 1em;
+    font-size: 1.4em;
+
+    text-transform: uppercase;
+}
+
+.models-item span{
+    font-size: 1.2em;
 }
