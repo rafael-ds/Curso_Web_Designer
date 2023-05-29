@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+
+    font-size: 62.5%;
+    font-family: 'Maven Pro';
+    
+}
+
+
+html, body{
+    height: 100vh;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.main-header{
+        background-color: #2A2A2A;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.main-header img{
+    width: 150px;
+    padding-left: 10em;
+}
+.list-header{
+    padding-right: 15em;
+}
+
+.list-header-itens{
+    list-style: none;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
+}
+
+.list-header-itens li{
+    padding: 1.2em;
+    border: solid 1px #FED001;
+}
+
+.list-header-itens li a{
+    color: #FED001;
+    font-size: 1.6em;
+}
+
+.list-header-itens li:hover a{
+    text-decoration: underline;
+}
