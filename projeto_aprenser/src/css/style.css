@@ -117,3 +117,72 @@ a{
     
 }
 
+/* Seção principais cursos */
+
+.destc-cursos{
+    background-color: rgba(216, 216, 216, 0.288);
+
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.destc-cursos h2{
+    font-size: 3em;
+    text-transform: capitalize;
+    
+}
+
+
+.btn-mais-cursos{
+    background-color: #FED001;
+    padding: 1em 5em;
+}
+
+.btn-mais-cursos a{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.main-cards{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 80%;
+    
+
+}
+
+.card{
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-article{
+    padding: 20px;
+}
+
+.card-article h3{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-article p{
+    font-size: 1.8em;
+    padding: 10px;
+}
