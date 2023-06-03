@@ -186,3 +186,42 @@ a{
     font-size: 1.8em;
     padding: 10px;
 }
+
+/* ### Escola ### */
+/* nossa escola */
+.nossas-escolas{
+    background-color: #003464;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 2em;
+    height: 80vh;
+}
+
+.nossas-escolas img{
+    width: 50%;
+    margin-top: 68px;
+    padding-left: 5em;
+
+}
+
+.escola-desc{
+    width: 35%;
+    padding: 1.5em;
+
+    color: white;
+   
+}
+
+.escola-desc h2{
+    font-size: 3.5em;
+    padding-bottom:3em;
+    font-weight: bold;
+}
+
+.escola-desc p{
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
