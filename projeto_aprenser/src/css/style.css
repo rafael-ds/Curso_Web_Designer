@@ -61,3 +61,59 @@ a{
 .list-header-itens li:hover a{
     text-decoration: underline;
 }
+
+/* #### Main #### */
+/* main-container */
+
+.main-conteiner{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.main-banner{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 86vh;
+    background-image: linear-gradient(180deg, white, #FFFF38);
+
+    gap: 3em;
+
+}
+
+.banner-desc{
+    font-size: 3em;
+    width: 25%;
+    
+    line-height: 2.5em;
+    margin-left: 5%;    
+}
+
+.banner-desc a{
+    background-color: #FED001;
+    width: fit-content;
+    padding: .7em 1.5em;
+
+    border: none;
+
+    font-size: .6em;
+    color: black;
+    font-weight: bolder;
+}
+
+.img-banner{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.img-banner img{
+    width: 87%;
+    
+}
+
