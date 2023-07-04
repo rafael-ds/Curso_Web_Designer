@@ -5,7 +5,7 @@
 
 <br>
 
-# 📑 Curso_Web_Desig
+# 📑 Curso_Web_Designer
 
 Este repositório contém os projetos frontend desenvolvidos com HTML, CSS e JavaScript no curso do Prof. Daniel Tapias Morales na plataforma da Udemy. 
 
